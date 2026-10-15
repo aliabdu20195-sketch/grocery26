@@ -210,3 +210,14 @@ table tr:hover {
     color: white;
     padding: 20px;
     border-radius
+    /* منع الأيقونات من الاستجابة للنقرات */
+button i {
+    pointer-events: none;
+}
+
+/* التأكد من أن الزر كله قابل للنقر */
+.tab-btn {
+    cursor: pointer;
+    user-select: none;
+}
+
